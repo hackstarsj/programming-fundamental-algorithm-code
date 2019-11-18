@@ -1,0 +1,497 @@
+Program to Print Hello world!
+Algorithm 1: 
+Step 1. Print HELLO World
+
+Program 1: 
+
+alert("Hello World");
+undefined
+console.log("Hello World");
+VM220:1 Hello World
+undefined
+
+==============================================================================
+Program to Add Two Numbers
+
+Algorithm:
+Step 1. Input Value of Number1
+Step 2. Input value of Number2;
+Step 3. Store Value of Number1+Number2 in sum
+Step 4. Print Value of sum
+
+Program 2:
+var a=prompt("Input Value of A");
+undefined
+var b=prompt("Input Value of B");
+undefined
+var sum=a+b;
+undefined
+console.log(sum);
+//here it join value as a string
+VM356:1 1040
+undefined
+sum=parseInt(a)+parseInt(b);
+//here it sum the value as a number
+50
+console.log(sum);
+VM476:1 50
+undefined
+
+==================================================================================
+Program to Find the Square Root
+
+Algorithm:
+Step 1 : Input Number
+Step 2 : Do Operation and Find Sqrt and Store in sqrt
+Step 3 : Print sqrt
+
+Program 3:
+
+var num=prompt("Input a Number")
+undefined
+var sqrt=Math.sqrt(parseInt(num));
+undefined
+console.log(sqrt);
+VM623:1 12
+
+
+======================================================================================
+Program to Calculate the Area of a Triangle
+Algorithm 4: 
+Step 1: Input The Value of Base
+Step 2: Input the Value of Height
+Step 3: Store the Value of (1/2)*Base*Height into Area
+Step 4: Print the Value of Area
+
+Program 4:
+var base_value=prompt("Input The Value of Base");
+undefined
+var height=prompt("Input the Value of Height");
+undefined
+var area=(1/2)*parseInt(base_value)*parseInt(height);
+undefined
+console.log(area);
+VM921:1 75
+undefined
+====================================================================================
+Program to Swap Two Variables
+Algorithm :
+Step 1: Input Value of A
+Step 2: Input Value of B
+Step 3: Store Value of A in Temp Variable
+Step 4: Store Value of B in A
+Step 5: Store value of Temp in B
+Step 6: Print Value of A and B
+
+Program :
+var a=prompt("Input Value of A");
+undefined
+var b=prompt("Input Value of B");
+undefined
+console.log("Value of A is "+a+" and B is: "+b);
+VM1125:1 Value of A is 50 and B is: 80
+undefined
+var temp=a;
+undefined
+a=b;
+"80"
+b=temp
+"50"
+console.log("Value of A is "+a+" and B is: "+b);
+VM1164:1 Value of A is 80 and B is: 50
+undefined
+
+=========================================================================================
+Program to Generate a Random Number
+Algorithm:
+Step 1: Generate a Random No
+Step 2: Print the Number
+
+Program:
+var num=Math.random()
+undefined
+console.log(num);
+VM1274:1 0.3129512552650342
+undefined
+var num=Math.random(10,100)
+undefined
+console.log(num);
+VM1312:1 0.48519584561005535
+undefined
+var num=Math.floor(Math.random()*100)
+undefined
+console.log(num);
+VM1445:1 98
+undefined
+console.log(num);
+VM1448:1 98
+undefined
+var num=Math.floor(Math.random()*100)
+undefined
+console.log(num);
+VM1456:1 17
+undefined
+var num=Math.floor(Math.random()*100)
+undefined
+console.log(num);
+VM1464:1 60
+undefined
+=================================================================================
+Program to Convert Kilometers to Metre
+Algorithm:
+Step 1: Input Value in KM
+Step 2: Multiple the Value of Km to 1000 and store into Metre
+Step 3: Print Value of Metre
+
+Program :
+
+var kms=prompt("Input the Value in KM");
+undefined
+var metre=parseInt(kms)*1000;
+undefined
+console.log(metre);
+VM1591:1 10000
+undefined
+
+====================================================================================
+Program to Convert Celsius To Fahrenheit
+
+Algorithm:
+Step 1: Input the Value in Celsius
+Step 2: Process the Value of Celsius to Fahrneheit and store in Temp
+Step 3: Print Value of Temp
+
+Program :
+var cels=prompt("Input the Value of Celsius");
+undefined
+var temp=parseInt(cels)*1.8+32;
+undefined
+console.log(temp);
+VM1772:1 212
+
+===========================================================================================
+Program to Check if a Number is Positive, Negative or 0
+
+Algorithm :
+Step 1:Input a Number
+Step 2: Check Number is Greater than 1 if greater than or equal to 1 Print Positive Number Else Go to Step 3
+Step 3: Check Number is Smaller than 1 if Smaller than 0 Print Negative Number Else Go to Step 4
+Step 4: Print Number is Zero
+
+Program:
+var num=prompt("Input a Number");
+undefined
+if(num>=1)
+{
+console.log("Positive Number");
+}
+else if(num<1)
+{
+console.log("Negative number");
+}
+else
+{
+console.log("Number is Zero");
+}
+VM2015:3 Positive Number
+undefined
+var num=prompt("Input a Number");
+undefined
+if(num>=1)
+{
+console.log("Positive Number");
+}
+else if(num<1)
+{
+console.log("Negative number");
+}
+else
+{
+console.log("Number is Zero");
+}
+VM2022:7 Negative number
+undefined
+if(num>=1)
+{
+console.log("Positive Number");
+}
+else if(num<0)
+{
+console.log("Negative number");
+}
+else
+{
+console.log("Number is Zero");
+}
+VM2029:11 Number is Zero
+undefined
+var num=prompt("Input a Number");
+undefined
+if(num>=1)
+{
+console.log("Positive Number");
+}
+else if(num<0)
+{
+console.log("Negative number");
+}
+else
+{
+console.log("Number is Zero");
+}
+VM2037:7 Negative number
+
+==============================================================================================
+Program to Check if a Number is Odd or Even
+Algorithm:
+Step 1: Input a Number
+Step 2: Check Number%2==0 then Print Number is Even Else goto Step 3
+Step 3: Number is Odd
+
+Program:
+var num=prompt("Input a Number");
+undefined
+if(num%2==0)
+{
+console.log("Number is even");
+}
+else
+{
+console.log("Number is Odd");
+}
+VM2201:3 Number is even
+undefined
+var num=prompt("Input a Number");
+undefined
+if(num%2==0)
+{
+console.log("Number is even");
+}
+else
+{
+console.log("Number is Odd");
+}
+VM2208:7 Number is Odd
+
+==============================================================================
+Program to Check Leap Year
+Algorithm:
+Step 1: Input The Value of Year
+Step 2: Check Year %4==0 THEN Print Year is Leap year Else Goto Step 3
+Step 3: Print Year is Not Leap Year
+
+Program:
+var year=prompt("Input the Value of Year");
+undefined
+if(year%4==0)
+{
+console.log("Leap year");
+}
+else
+    
+{
+console.log("Not a Leap Year");
+}
+VM2400:3 Leap year
+undefined
+var year=prompt("Input the Value of Year");
+undefined
+if(year%4==0)
+{
+console.log("Leap year");
+}
+else
+    
+{
+console.log("Not a Leap Year");
+}
+VM2407:8 Not a Leap Year
+====================================================================================
+Program to Find the Largest Among Three Numbers
+Algorithm:
+Step 1: Input Value of A
+Step 2: Input Value of B
+Step 3: Input Value of C
+Step 4: If Value of A Greater than B and C Then Print A is Greater Else Go to Step 5
+Step 5: If Value B Greater than A and C Then Print B is Greater Else Go to Step 6
+Step 6: Print C is Greater
+
+Program:
+var a=prompt("Input Value of A");
+undefined
+var b=prompt("Input Value of B");
+
+undefined
+var c=prompt("Input Value of C");
+undefined
+if(a>b && a>c)
+{
+console.log("A is Greater");
+}
+else if(b>a && b>c)
+{
+console.log("B is Greater");
+}
+else 
+{
+console.log("C is Greater");
+}
+VM2683:11 C is Greater
+undefined
+var a=prompt("Input Value of A");
+undefined
+var b=prompt("Input Value of B");
+
+undefined
+var c=prompt("Input Value of C");
+undefined
+if(a>b && a>c)
+{
+console.log("A is Greater");
+}
+else if(b>a && b>c)
+{
+console.log("B is Greater");
+}
+else 
+{
+console.log("C is Greater");
+}
+VM2705:7 B is Greater
+===============================================================================
+Program to Find the Factorial of a Number
+
+Algorithm:
+Step 1: Input a Number
+Step 2: fact=1
+Step 3: Repeat Step 4 Until Number not Equal to 1 if it 1 go to step 5
+Step 4: fact=fact*number decrease number by 1
+Step 5: print Value of Fact
+
+Program:
+var num=prompt("Input a Number");
+undefined
+var fact=1
+undefined
+for(var i=0;i<num;i++)
+{
+fact=fact*num;
+num=num-1;
+}
+2
+console.log(fact)
+VM2874:1 60
+undefined
+var num=prompt("Input a Number");
+undefined
+for(var i=0;i<num;i++)
+{
+fact=fact*num;
+num=num-1;
+}
+5
+console.log(fact)
+VM2889:1 1814400
+undefined
+var num=prompt("Input a Number");
+undefined
+var fact=1
+undefined
+for(var i=0;i<num;i++)
+{
+fact=fact*num;
+num=num-1;
+}
+5
+console.log(fact)
+VM2918:1 30240
+undefined
+==============================================================================================
+
+Program to Display the multiplication Table
+
+Algorithm:
+Step 1:Input the Number to Display Table
+Step 2:Input the Value of Max Number of Table Data and i=1
+Step 3:Repeat Step 4 Until i!=max value else go to step 5
+Step 4:print number * i data
+Step 5:End the program
+
+Program:
+var num=prompt("Input Number ");
+undefined
+var max=prompt("Input Max Data to be Shown")
+undefined
+for(var i=1;i<=max;i++)
+{
+var temp=num*i;
+console.log(num+" x "+i+" = "+temp);
+}
+VM3215:4 5 x 1 = 5
+VM3215:4 5 x 2 = 10
+VM3215:4 5 x 3 = 15
+VM3215:4 5 x 4 = 20
+VM3215:4 5 x 5 = 25
+VM3215:4 5 x 6 = 30
+VM3215:4 5 x 7 = 35
+VM3215:4 5 x 8 = 40
+VM3215:4 5 x 9 = 45
+VM3215:4 5 x 10 = 50
+undefined
+var num=prompt("Input Number ");
+undefined
+var max=prompt("Input Max Data to be Shown")
+undefined
+for(var i=1;i<=max;i++)
+{
+var temp=num*i;
+console.log(num+" x "+i+" = "+temp);
+}
+VM3229:4 18 x 1 = 18
+VM3229:4 18 x 2 = 36
+VM3229:4 18 x 3 = 54
+VM3229:4 18 x 4 = 72
+VM3229:4 18 x 5 = 90
+VM3229:4 18 x 6 = 108
+VM3229:4 18 x 7 = 126
+VM3229:4 18 x 8 = 144
+VM3229:4 18 x 9 = 162
+VM3229:4 18 x 10 = 180
+VM3229:4 18 x 11 = 198
+VM3229:4 18 x 12 = 216
+VM3229:4 18 x 13 = 234
+VM3229:4 18 x 14 = 252
+VM3229:4 18 x 15 = 270
+VM3229:4 18 x 16 = 288
+VM3229:4 18 x 17 = 306
+VM3229:4 18 x 18 = 324
+VM3229:4 18 x 19 = 342
+VM3229:4 18 x 20 = 360
+============================================================================================
+Program to Find the Sum of Natural Numbers
+
+Algoithm:
+Step 1: Input The max Number to be Count
+Step 2: i=1;sum=0;
+Step 3: Repeat Step 4 Until i!=max number else go to step 5
+Step 4: sum=sum+i;
+Step 5: print value of sum
+
+Program :
+
+var max=prompt("Input Max Number");
+undefined
+var sum=0;
+undefined
+for(var i=1;i<=max;i++)
+{
+sum=sum+i;
+}
+
+55
+console.log(sum)
+VM3398:1 55
+undefined
+1+2+3+4+5+6+7+8+9+10
+55
+
